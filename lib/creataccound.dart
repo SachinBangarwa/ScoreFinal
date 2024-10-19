@@ -66,7 +66,7 @@ class _logincreeatState extends State<logincreeat> {
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("Already have an account? ",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.black54)),
+                Text("Already have a account? ",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.black54)),
                 GestureDetector(
                     onTap: (){
 
@@ -121,7 +121,7 @@ class _logincreeatState extends State<logincreeat> {
                 )),
             border: OutlineInputBorder(
                 borderSide: BorderSide(
-                  color: Colors.orange,
+                  color: Colors.pink,
                   width: 15,
                 ))),
       ),

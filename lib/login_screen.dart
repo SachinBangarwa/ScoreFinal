@@ -32,7 +32,7 @@ class _LoginScreenState extends State<LoginScreen> {
               height: 50,
             ),
             Text(
-              'Walcome Back !',
+              'My States !',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 19,
@@ -70,7 +70,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 height: 52,
                 margin: EdgeInsets.only(left:18,right:18,bottom: 15 ),
                 decoration: BoxDecoration(
-                  color: Colors.orange[400],
+                  color: Colors.orange[200],
                   borderRadius: BorderRadius.all(Radius.circular(10))
                 ),
                 child: Text("Login",style: TextStyle(color: Colors.black,fontSize: 19,fontWeight: FontWeight.bold)),
@@ -140,7 +140,7 @@ class _LoginScreenState extends State<LoginScreen> {
             border: OutlineInputBorder(
                 borderSide: BorderSide(
               color: Colors.orange,
-              width: 15,
+              width: 16,
             ))),
       ),
     );
